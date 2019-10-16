@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+  <form action="welcomepage.html" method="GET">
+  <head>
+  <h1>Buat Account Baru!<h1>
+  </head>
+  <body>
+    <h2>Sign Up Form</h2>
+    <section class="name">
+       <label for="first-name">First name: </label>
+       <input id="first-name" name="first-name" type="text">
+       <br>
+       <label for="last name">Last name:</label>
+       <input id="last-name" name="last-name" type="text">
+    </section>
+    <br>
+    <section class="gender">
+      <span>Gender:</span>
+      <br>
+      <label for="male">Male</label>
+      <input id="male" name="gender" type="radio" value="yes">
+      <br>
+      <label for="female">Female</label>
+      <input id="female" name="gender" type="radio" value="yes">
+      <br>
+      <label for="other">Other</label>
+      <input id="other" name="gender" type="radio" value="yes">
+    <br><br>
+    <section class="nationality">
+      <label for="nationality">Nationality: </label>
+      <input list="nationalities" id="nationality" name="nationality">
+      <datalist id="nationalities">
+        <option value="Indonesian"></option>  
+        <option value="Malaysian"></option>
+        <option value="American"></option>
+        <option value="Other"></option>      
+      </datalist>
+    <br><br>
+    <section class="language">
+      <span>Language Spoken:<span>
+      <br>
+      <label for="bahasa">Bahasa Indonesia</label>
+      <input type="checkbox" name="bahasa" id="bahasa" value="Bahasa Indonesia">
+      <br>
+      <label for="english">English</label>
+      <input type="checkbox" name"english" id="english" value="English">
+      <br>
+      <label for="other">Other</label>
+      <input type="checkbox" name="other" id="other" value="Other">
+    </section>
+    <br><br>
+    <section class="bio">
+      <label for="bio">Bio: </label>
+      <br><br>
+      <textarea id="bio" rows="10" cols="45"></textarea>
+    </section>
+    <br><br>
+    <section class="submission">
+      <input type="submit" value="Sign Up">
+    </section>
+  </body>
+  </form>
+
+</html>
